@@ -1,0 +1,712 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #fbfbfb;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    padding-top: 50px;
+}
+
+header,
+footer,
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: whitesmoke;
+    border: 2.5px solid whitesmoke;
+    border-radius: 10px;
+    padding: 0.2rem;
+}
+
+
+.header-bg {
+    background-color: #01010bf0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.footer-bg {
+    background-color: #01010bf0;
+    width: 100%;
+}
+
+strong{
+    color: #fe0016;
+}
+
+/*CSS SECCION INICIO*/
+
+.navegacion{
+    width: 100%;
+    background-color: #01010bf0;
+    z-index: 1;
+}
+
+.navegacion li{
+    list-style: none;
+    border-radius: 5px;
+    padding: 0rem 0.5rem;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    min-width: 130px;
+}
+
+.navegacion li:active{
+    background-color: #fe0016;
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.contenedor-producto{
+    color: whitesmoke;
+    background-color: #fe0016;
+    font-size: 0;
+    height: 100%;
+}
+
+.producto-imagen img{
+    padding: 2rem;
+}
+
+.contenedor-textoBanner{
+    padding: 1rem;
+    text-shadow: 11px 11px 5px rgba(0, 0, 0, 0.418);
+}
+
+
+.contenedor-textoBanner h2{
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.contenedor-textoBanner p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+/*CSS SECCION INICIO*/
+
+/*CSS SECCION CARATERISTICAS*/
+
+.contenedor-caracteristica{
+    border-radius: 10px;
+}
+
+.contenedor-caracteristicas{
+    width: 100%;
+    margin: auto;
+}
+
+h2{
+    color: #01010B;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.contenedor-textoCaracteristicas h3{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.contenedor-textoCaracteristicas p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    margin: 0.5rem;
+}
+
+.contenedor-imagen img{
+    padding: 1rem;
+}
+
+/*CSS SECCION CARATERISTICAS*/
+
+/*CSS SECCION MODOS DE USO*/
+
+.contenedor-modosuso{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 0;
+}
+
+
+.contenedor-texto-modouso h2{
+    display: none;
+}
+
+.contenedor-texto-modouso{
+    font-size: 1rem;
+    color: #01010B;
+}
+
+.contenedor-texto-modouso p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.contenedor-imagenuso img{
+    padding: 2rem;
+}
+
+.contenedor-3modos{
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.modo h3{
+    margin: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.modo p{
+    margin: 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+#titulo-modosuso{
+    color: #01010B;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+/*CSS SECCION MODOS DE USO*/
+
+/*CSS SECCION CONTROLES*/
+
+.controles{
+    width: 100%;
+    background-color: #01010B;
+    color: #fbfbfb;
+    padding-top: 0.5rem;
+}
+#titulo-controles{
+    color: #fbfbfb;
+    margin: 1rem auto;
+    border: thin solid transparent;
+}
+
+.texto-control h2{
+    display: none;
+}
+
+.controles p{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+}
+
+.controles img{
+    padding: 2rem;
+}
+
+.modo-control{
+    width: 100%;
+    margin-top: 1rem;
+    color: #fbfbfb;
+}
+
+.modo-control h3{
+    margin: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.modo-control p{
+    margin: 1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/*CSS SECCION CONTROLES*/
+
+/*CSS SECCION JUEGOS*/
+
+p{
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+.juego{
+    font-size: 0;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.juego div{
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.juego img{
+    display: block;
+    width: 100%;
+}
+
+.juego .contenedor-texto-imagen{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 139, 139, 0), rgb(0, 0, 0));
+    color: white;
+    text-shadow: 2px 2px 3px rgba(66, 66, 66, 0.452);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.contenedor-texto-imagen h3{
+    font-size: 1.2rem;
+    margin:0;
+    font-weight: 400;
+}
+.contenedor-texto-imagen p{
+    font-size: 1rem;
+    margin:0;
+    font-weight: 400;
+}
+
+.contenedor-texto-imagen strong{
+    color: #fbfbfb;
+}
+
+/*CSS SECCION JUEGOS*/
+
+/*CSS SECCION FORMULARIO*/
+
+.contenedor-formulario{
+    width: 100%;
+}
+
+.imagen-formulario{
+    display: none;
+}
+
+.formulario{
+    width: 100%;
+
+}
+
+.input-text{
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.btn-form{
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    margin: 1rem;
+    font-size: 1.1rem;
+    background-color: #01010B;
+    color: #fbfbfb;
+    transition: .3s;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.btn-form:active{
+    background-color: #fbfbfb;
+    color: #01010B;
+    border: 1px solid #01010B;
+    transition: .3s;
+}
+
+/*CSS SECCION FORMULARIO*/
+
+/*CSS SECCION FOOTER*/
+
+.footer-bg p{
+    color: #fbfbfb;
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer-bg h2{
+    color: #fbfbfb;
+    margin-top: 0rem;
+}
+
+.imagen-footer img{
+    width: 250px;
+    margin: 1rem auto;
+}
+
+.texto-footer{
+    color: #fbfbfb;
+    text-align: center;
+}
+
+.texto-footer h3{
+    font-size: 2rem;
+    display: none;
+}
+
+.texto-footer li{
+    margin: 1rem 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+/*CSS SECCION FOOTER*/
+
+@media screen and (min-width:320px) {
+    .contenedor-texto-imagen h3{
+        font-size: 0.9rem;
+    }
+
+    .contenedor-texto-imagen p{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (min-width:576px) {
+
+    .navegacion li{
+        display: inline-block;
+        width: calc(20% - 1rem);
+        margin: 0.5rem 0.5rem;
+    }
+
+    .navegacion{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+    }
+
+    main {
+        margin: 3rem auto;
+    }
+
+    .contenedor-producto div{
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+    }
+
+    .contenedor-caracteristica{
+        margin-top: 1rem;
+        display: inline-block;
+        width: calc(50% - 0.2rem);
+        vertical-align: top;
+        background-color: #01010B;
+        color: whitesmoke;
+        min-height: 500px;
+    }
+
+    .modo{
+        width: calc(33.33% - 1.5rem);
+        margin: 0rem 0.5rem;
+        font-size: 1rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .contenedor-modosuso div{
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .contenedor-texto-modouso h2{
+        display: block;
+        color: #01010B;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        
+    }
+
+    #titulo-modosuso{
+        display: none;
+    }
+
+    .imagen-control, .texto-control{
+        width: calc(50% - 1rem); 
+        display: inline-block;       
+        vertical-align: middle;
+    }
+
+    .modo-control{
+        width: calc(33.33% - 1rem);
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .juegos{
+        margin: 2rem;
+    }
+
+    .contenedor-texto-imagen{
+        height: 30%;
+        width: 100%;
+    }
+
+    #devby{
+        display: none
+    }
+
+    .footer-bg div{
+        display: inline-block;
+        width: calc(50% - 1rem);
+        vertical-align: middle;
+    }
+
+    .footer-bg h3{
+        display: inline;
+    }
+
+    .texto-footer{
+        text-align: left;
+    }
+
+    .btn-form:active{
+        background-color: #fbfbfb;
+        color: #01010B;
+        border: 1px solid #01010B;
+        transition: .3s;
+    }
+
+}
+
+@media screen and (min-width:990px) {
+
+    .navegacion li{
+        display: inline-block;
+        width: calc(20% - 1rem);
+        border-radius: 0px;
+        padding: 0rem 0.5rem;
+        margin: 0.5rem 0.5rem;
+        text-align: center;
+    }
+
+    .navegacion li:hover{
+        border-bottom: 3px solid red;
+        transition: border-bottom 0.5s;
+        background: linear-gradient(rgba(0, 139, 139, 0), rgb(0, 0, 0));
+    }
+
+    .navegacion li a:hover{
+        font-size: 1.1rem;
+    }
+
+    .navegacion{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+    }
+
+    main {
+        margin: 3rem auto;
+    }
+
+
+    .contenedor-producto{
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .contenedor-producto div{
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+    }
+
+    .contenedor-producto h2{
+        margin-bottom: 1.5rem;
+    }
+
+    .contenedor-texto{
+        border-right: thin solid white;
+    }
+
+    .contenedor-caracteristica{
+        margin-top: 1rem;
+        display: inline-block;
+        width: calc(33.33% - 0.3rem);
+        vertical-align: top;
+        background-color: #01010B;
+        color: whitesmoke;
+        min-height: 505px;
+    }
+
+    .contenedor-imagen img{
+        vertical-align: bottom;
+    }
+
+    .modo{
+        width: calc(33.33% - 1.5rem);
+        margin: 0rem 0.5rem;
+        font-size: 1rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .imagen-control, .texto-control{
+        width: calc(50% - 1rem); 
+        display: inline-block;       
+        vertical-align: middle;
+    }
+
+    .modo-control{
+        width: calc(33.33% - 1.5rem);
+        display: inline-block;
+        vertical-align: top;
+        margin: 0.5rem;
+    }
+
+    .controles{
+        border-radius: 10px;
+    }
+
+    .texto-control h2{
+        display: block;
+        color: #fbfbfb;
+        margin: 1rem auto;
+        border: thin solid transparent;
+    }
+
+    #titulo-controles{
+        display: none;
+    }
+
+    .juego .contenedor-texto-imagen{
+        position: static;
+        background: none;
+        color: rgb(41, 41, 41);
+    }
+
+    .juego div:nth-child(2n) {
+        margin-left: 2rem;
+    }
+
+    .juego div, .juego .contenedor-texto-imagen{
+        display: inline-block;
+        width: calc(50% - 1rem);
+    }
+
+    .juego img{
+        border-radius: 10px;
+    }
+
+    .contenedor-texto-imagen h3{
+        font-size: 2rem;
+    }
+
+    .contenedor-texto-imagen p{
+        font-size: 1.2rem;
+    }
+
+    .contenedor-texto-imagen strong{
+        color: #fe0016;
+    }
+
+    .input-text {
+        resize: none;
+    }
+
+    .input-text:hover{
+        cursor: text;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .input-text:focus{
+        background-color: #fbfbfb;
+        border: 2px solid rgba(30, 85, 250, 0.47);
+    }
+
+    .btn-form:hover{
+        cursor: pointer;
+        background-color: #fbfbfb;
+        color: #01010B;
+        border: 1px solid #01010B;
+        transition: .3s;
+    }
+
+    #devby{
+        display: none
+    }
+
+    .footer-bg div{
+        display: inline-block;
+        width: calc(50% - 1rem);
+        vertical-align: middle;
+    }
+
+    .footer-bg h3{
+        display: inline;
+    }
+
+    .texto-footer{
+        text-align: left;
+    }
+
+}
+
